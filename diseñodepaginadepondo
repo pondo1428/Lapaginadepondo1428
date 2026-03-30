@@ -1,0 +1,23 @@
+/* General */
+body {
+    font-family: Arial, sans-serif; /* Fuente estilo consola */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    overflow-x: hidden; /* Oculta el desbordamiento del fondo animado */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+}
+header {
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0; /* Posición en la parte superior */
+    width: 100%; /* Que abarque todo el ancho de la página */
+    background: #2b2b2b; /* Fondo gris oscuro */
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+    /*border-bottom: 2px solid #ff3232; /* Línea divisoria */
+    display: flex; /* Para alinear título y menú */
+    justify-content: space-between; /* Separar título y menú */
+    align-items: center; /* Centrar verticalmente el contenido */
+
+    
